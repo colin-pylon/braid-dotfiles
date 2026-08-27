@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -x
+git remote add dotfiles https://github.com/colin-pylon/dotfiles
+git fetch dotfiles && git switch main && exec ./install
